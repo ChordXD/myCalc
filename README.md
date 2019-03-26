@@ -13,7 +13,7 @@ git clone https://github.com/ChordXD/mycalc.git
 2. 确保已经安装bison与flex.
 3. 依次在下载的仓库中执行
 ```shell
-bison -yacc -dv mycalc.y
+bison --yacc -dv mycalc.y
 flex mycalc.l
 gcc -o mycalc y.tab.c lex.yy.c
 ```
@@ -24,7 +24,7 @@ gcc -o mycalc y.tab.c lex.yy.c
 2. 依次在下载的仓库中执行:
 ```shell
 sudo apt-get install flex bison
-bison -yacc -dv mycalc.y
+bison --yacc -dv mycalc.y
 flex mycalc.l
 cc -o mycalc y.tab.c lex.yy.c
 ```
