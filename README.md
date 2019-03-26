@@ -1,5 +1,6 @@
 # mycalc
 一个计算器，支持加减乘除四则运算。
+
 简单的记录一下造轮子的过程
 ## 安装
 首先拷贝仓库
@@ -7,7 +8,7 @@
 git clone https://github.com/ChordXD/mycalc.git
 ```
 
-### windows
+### Windows
 1. 确保gcc编译器已经正确安装
 2. 确保已经安装bison与flex.
 3. 依次在下载的仓库中执行
@@ -18,7 +19,7 @@ gcc -o mycalc y.tab.c lex.yy.c
 ```
 4. 最后启动可执行文件mycalc即可。
 
-### linux
+### Linux
 1. 确保gcc环境正确配置。
 2. 依次在下载的仓库中执行:
 ```shell
